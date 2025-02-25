@@ -1,14 +1,13 @@
 {
   "name": "skyestate",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "Homepage": "https://surajgaria.github.io/SkyEstate/"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react-leaflet": "^4.2.1",
